@@ -1,0 +1,71 @@
+#navbar{
+    font-family: arial, sans-serif;
+    font-size: 13px;
+    padding-top: 5px;
+    padding-left: 5px;
+   
+}
+
+a{
+    display: inline-block;
+    color:rgba(0,0,0,0.87);
+    text-decoration:none;
+    padding: 9px;
+    text-align:justify;
+    line-height:22px;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.flex-container{
+   
+display: flex;
+flex-basis: auto;
+flex-grow: 1;
+flex-shrink: 1;
+line-height: 28px;
+float: right;
+font-family: arial, sans-serif;
+font-size: 13px;
+justify-content: flex-end;
+margin-left: 0px;
+margin-right: 0px;
+min-width: 220px;
+order: 1;
+padding-left: 30px;
+padding-right: 30px;
+position: relative;
+text-align: right;
+user-select: none;
+white-space: nowrap;
+z-index:987;
+}
+
+.appsicon{
+    display: inline;
+    height: 30px;
+    width: 30px;
+    vertical-align: middle;
+}
+
+.sign-in{
+    display: inline;
+    background-image: -moz-linear-gradient(rgb(67, 135, 253), rgb(70, 131, 234));
+    line-height: 20px;
+  
+    color: rgb(255,255,255);
+    font-weight: bold;
+    height: 20px;
+    align-content: center;
+    
+  
+   
+}
+
+.sign-in:hover{
+    text-decoration:none;
+
+}
+
